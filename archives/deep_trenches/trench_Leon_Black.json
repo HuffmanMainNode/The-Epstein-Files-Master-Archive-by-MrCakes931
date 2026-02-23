@@ -1,0 +1,18 @@
+{
+    "entity": "Leon Black",
+    "intel": {
+        "Entity": "Leon Black",
+        "Sunlight_Procurement_Links": [
+            "SEC EDGAR Database: Apollo Global Management (APO) Schedule 13D and Form 4 filings (2012-2021)",
+            "IRS TEOS: Form 990 filings for The Phraasis Fund and The Black Family Foundation",
+            "Dechert LLP Independent Review: 'Report to the Special Committee of the Board of Directors of Apollo Global Management' (January 2021)",
+            "ADS-B Exchange & FAA Registry: Historical flight data for private tail numbers N164RJ, N518BE, and N608LB"
+        ],
+        "Research_Rabbit_Holes": [
+            "The 158 Million Dollar Question: Investigating the specific Grantor Retained Annuity Trusts (GRATs) structured by Jeffrey Epstein, specifically the step-up basis discrepancies in the 'Magic Trust' designed to evade estate taxes, and correlating the $158M in fees against standard market rates for legitimate tax counsel.",
+            "USVI Flight Pattern Anomalies: Cross-referencing the anonymous flight logs with Apollo's acquisition timelines to identify unrecorded meetings in the U.S. Virgin Islands that align with the establishment of Southern Country International (Epstein's DNA data mining company).",
+            "The Art Valuation Arbitrage: Auditing the appraisal values of the Black Art Collection (including Munch's 'The Scream') listed in insurance documents versus the values claimed for charitable deductions on Form 990s during years of high capital gains realization."
+        ]
+    },
+    "date": "2026-02-23T17:53:51.908999"
+}
