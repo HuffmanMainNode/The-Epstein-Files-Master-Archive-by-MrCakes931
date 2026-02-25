@@ -1,0 +1,573 @@
+[
+    {
+        "id": "JE-001",
+        "name": "Jeffrey Epstein Record",
+        "type": "PersonDetails",
+        "source": "Initial Data"
+    },
+    {
+        "record_id": "DBR-0002",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "DavidCopperfield",
+            "label": "David Copperfield",
+            "type": "Person",
+            "attributes": {
+                "occupation": "Magician",
+                "source_text": "News article about Epstein associates"
+            }
+        },
+        "source_document_ref": "News article about Epstein associates",
+        "timestamp_processed": "2026-02-25 16:51:04"
+    },
+    {
+        "record_id": "DBR-0003",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "PrivateJet",
+            "label": "Private Jet",
+            "type": "Aircraft",
+            "attributes": {
+                "registration": "N-SIMULATED",
+                "source_text": "Flight manifest data"
+            }
+        },
+        "source_document_ref": "Flight manifest data",
+        "timestamp_processed": "2026-02-25 16:51:04"
+    },
+    {
+        "record_id": "DBR-0004",
+        "record_type": "extracted_edge",
+        "extracted_data": {
+            "source": "JeffreyEpstein",
+            "target": "DavidCopperfield",
+            "type": "associated_with",
+            "attributes": {
+                "relationship_type": "acquaintance",
+                "source_text": "archive/documents/court_document_excerpt_001.txt"
+            }
+        },
+        "source_document_ref": "archive/documents/court_document_excerpt_001.txt",
+        "timestamp_processed": "2026-02-25 16:51:04"
+    },
+    {
+        "record_id": "DBR-0005",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "court_document_excerpt_001.txt",
+            "document_path": "archive/documents/court_document_excerpt_001.txt",
+            "content_summary": "Excerpt from US v. Maxwell: Witness testimony on date X."
+        },
+        "source_document_ref": "archive/documents/court_document_excerpt_001.txt",
+        "timestamp_processed": "2026-02-25 16:52:11"
+    },
+    {
+        "record_id": "DBR-0006",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "news_article_summary_001.txt",
+            "document_path": "archive/documents/news_article_summary_001.txt",
+            "content_summary": "Summary of a news article: Epstein flew frequently to Little St. James."
+        },
+        "source_document_ref": "archive/documents/news_article_summary_001.txt",
+        "timestamp_processed": "2026-02-25 16:52:11"
+    },
+    {
+        "record_id": "DBR-0007",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "jeffreyepstein_person",
+            "label": "Jeffrey Epstein",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Jeffrey Epstein",
+                "source_ref": "Court_Document_Excerpt_002"
+            }
+        },
+        "source_document_ref": "Court_Document_Excerpt_002",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0008",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "ghislainemaxwell_person",
+            "label": "Ghislaine Maxwell",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Ghislaine Maxwell",
+                "source_ref": "Court_Document_Excerpt_002"
+            }
+        },
+        "source_document_ref": "Court_Document_Excerpt_002",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0009",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "maxwell_person",
+            "label": "Maxwell",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Maxwell",
+                "source_ref": "Court_Document_Excerpt_002"
+            }
+        },
+        "source_document_ref": "Court_Document_Excerpt_002",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0010",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "epstein_person",
+            "label": "Epstein",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Epstein",
+                "source_ref": "Court_Document_Excerpt_002"
+            }
+        },
+        "source_document_ref": "Court_Document_Excerpt_002",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0011",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "littlestjames_organization",
+            "label": "Little St. James",
+            "type": "Organization",
+            "attributes": {
+                "source_text_snippet": "Little St. James",
+                "source_ref": "Court_Document_Excerpt_002"
+            }
+        },
+        "source_document_ref": "Court_Document_Excerpt_002",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0012",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "princeandrew_person",
+            "label": "Prince Andrew",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Prince Andrew",
+                "source_ref": "News_Article_Summary_002"
+            }
+        },
+        "source_document_ref": "News_Article_Summary_002",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0013",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "jeffreyepstein_person",
+            "label": "Jeffrey Epstein",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Jeffrey Epstein",
+                "source_ref": "News_Article_Summary_002"
+            }
+        },
+        "source_document_ref": "News_Article_Summary_002",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0014",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "epstein_organization",
+            "label": "Epstein",
+            "type": "Organization",
+            "attributes": {
+                "source_text_snippet": "Epstein",
+                "source_ref": "News_Article_Summary_002"
+            }
+        },
+        "source_document_ref": "News_Article_Summary_002",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0015",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "newyork_location",
+            "label": "New York",
+            "type": "Location",
+            "attributes": {
+                "source_text_snippet": "New York",
+                "source_ref": "News_Article_Summary_002"
+            }
+        },
+        "source_document_ref": "News_Article_Summary_002",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0016",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "n123pn_aircraft",
+            "label": "N123PN",
+            "type": "Aircraft",
+            "attributes": {
+                "source_text_snippet": "N123PN",
+                "source_ref": "News_Article_Summary_002"
+            }
+        },
+        "source_document_ref": "News_Article_Summary_002",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0017",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "palmbeach_location",
+            "label": "Palm Beach",
+            "type": "Location",
+            "attributes": {
+                "source_text_snippet": "Palm Beach",
+                "source_ref": "News_Article_Summary_002"
+            }
+        },
+        "source_document_ref": "News_Article_Summary_002",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0018",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "pilotdavid_person",
+            "label": "Pilot David",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Pilot David",
+                "source_ref": "Flight_Manifest_Data_001"
+            }
+        },
+        "source_document_ref": "Flight_Manifest_Data_001",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0019",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "n908je_organization",
+            "label": "N908JE",
+            "type": "Organization",
+            "attributes": {
+                "source_text_snippet": "N908JE",
+                "source_ref": "Flight_Manifest_Data_001"
+            }
+        },
+        "source_document_ref": "Flight_Manifest_Data_001",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0020",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "jecorp_organization",
+            "label": "JE Corp",
+            "type": "Organization",
+            "attributes": {
+                "source_text_snippet": "JE Corp",
+                "source_ref": "Flight_Manifest_Data_001"
+            }
+        },
+        "source_document_ref": "Flight_Manifest_Data_001",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0021",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "paris_location",
+            "label": "Paris",
+            "type": "Location",
+            "attributes": {
+                "source_text_snippet": "Paris",
+                "source_ref": "Flight_Manifest_Data_001"
+            }
+        },
+        "source_document_ref": "Flight_Manifest_Data_001",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0022",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "jeffreyepstein_person",
+            "label": "Jeffrey Epstein",
+            "type": "Person",
+            "attributes": {
+                "source_ref": "Flight_Manifest_Data_001"
+            }
+        },
+        "source_document_ref": "Flight_Manifest_Data_001",
+        "timestamp_processed": "2026-02-25 17:08:28"
+    },
+    {
+        "record_id": "DBR-0023",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "janedoe_person",
+            "label": "Jane Doe",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Jane Doe",
+                "source_ref": "Court_Document_Excerpt_003"
+            }
+        },
+        "source_document_ref": "Court_Document_Excerpt_003",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0024",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "jeffreyepstein_person",
+            "label": "Jeffrey Epstein",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Jeffrey Epstein",
+                "source_ref": "Court_Document_Excerpt_003"
+            }
+        },
+        "source_document_ref": "Court_Document_Excerpt_003",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0025",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "epstein_person",
+            "label": "Epstein",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Epstein",
+                "source_ref": "Court_Document_Excerpt_003"
+            }
+        },
+        "source_document_ref": "Court_Document_Excerpt_003",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0026",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "caribbean_location",
+            "label": "Caribbean",
+            "type": "Location",
+            "attributes": {
+                "source_text_snippet": "Caribbean",
+                "source_ref": "Court_Document_Excerpt_003"
+            }
+        },
+        "source_document_ref": "Court_Document_Excerpt_003",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0027",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "ghislainemaxwell_person",
+            "label": "Ghislaine Maxwell",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Ghislaine Maxwell",
+                "source_ref": "Court_Document_Excerpt_003"
+            }
+        },
+        "source_document_ref": "Court_Document_Excerpt_003",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0028",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "sarahkellen_person",
+            "label": "Sarah Kellen",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Sarah Kellen",
+                "source_ref": "News_Article_Summary_003"
+            }
+        },
+        "source_document_ref": "News_Article_Summary_003",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0029",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "epstein_person",
+            "label": "Epstein",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Epstein",
+                "source_ref": "News_Article_Summary_003"
+            }
+        },
+        "source_document_ref": "News_Article_Summary_003",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0030",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "newyork_location",
+            "label": "New York",
+            "type": "Location",
+            "attributes": {
+                "source_text_snippet": "New York",
+                "source_ref": "News_Article_Summary_003"
+            }
+        },
+        "source_document_ref": "News_Article_Summary_003",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0031",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "jeffreyepstein_person",
+            "label": "Jeffrey Epstein",
+            "type": "Person",
+            "attributes": {
+                "source_ref": "News_Article_Summary_003"
+            }
+        },
+        "source_document_ref": "News_Article_Summary_003",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0032",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "palmbeach_location",
+            "label": "Palm Beach",
+            "type": "Location",
+            "attributes": {
+                "source_text_snippet": "Palm Beach",
+                "source_ref": "Investigative_Report_001"
+            }
+        },
+        "source_document_ref": "Investigative_Report_001",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0033",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "epstein_person",
+            "label": "Epstein",
+            "type": "Person",
+            "attributes": {
+                "source_text_snippet": "Epstein",
+                "source_ref": "Investigative_Report_001"
+            }
+        },
+        "source_document_ref": "Investigative_Report_001",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0034",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "southerntrustcompany_organization",
+            "label": "Southern Trust Company",
+            "type": "Organization",
+            "attributes": {
+                "source_text_snippet": "Southern Trust Company",
+                "source_ref": "Investigative_Report_001"
+            }
+        },
+        "source_document_ref": "Investigative_Report_001",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0035",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "jeffreyepstein_person",
+            "label": "Jeffrey Epstein",
+            "type": "Person",
+            "attributes": {
+                "source_ref": "Investigative_Report_001"
+            }
+        },
+        "source_document_ref": "Investigative_Report_001",
+        "timestamp_processed": "2026-02-25 17:16:15"
+    },
+    {
+        "record_id": "DBR-0036",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "court_document_excerpt_003.txt",
+            "document_path": "archive/documents/court_document_excerpt_003.txt",
+            "content_summary": "A witness, Jane Doe, testified about flights with Jeffrey Epstein on aircraft N123PN to the private island owned by Epstein in the Caribbean. Ghislaine Maxwell was also present."
+        },
+        "source_document_ref": "archive/documents/court_document_excerpt_003.txt",
+        "timestamp_processed": "2026-02-25 17:17:10"
+    },
+    {
+        "record_id": "DBR-0037",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "news_article_summary_003.txt",
+            "document_path": "archive/documents/news_article_summary_003.txt",
+            "content_summary": "Sarah Kellen, an associate of Epstein, was seen frequently visiting his New York townhouse. She was also reportedly employed by his various foundations."
+        },
+        "source_document_ref": "archive/documents/news_article_summary_003.txt",
+        "timestamp_processed": "2026-02-25 17:17:10"
+    },
+    {
+        "record_id": "DBR-0038",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "investigative_report_001.txt",
+            "document_path": "archive/documents/investigative_report_001.txt",
+            "content_summary": "The report detailed events that occurred at the Palm Beach mansion, implicating several individuals who were associated with Epstein's network. Funds were transferred via Southern Trust Company."
+        },
+        "source_document_ref": "archive/documents/investigative_report_001.txt",
+        "timestamp_processed": "2026-02-25 17:17:10"
+    },
+    {
+        "record_id": "DBR-0039",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "court_document_excerpt_002.txt",
+            "document_path": "archive/documents/court_document_excerpt_002.txt",
+            "content_summary": "Further excerpt from Maxwell trial: Details of travel to Little St. James."
+        },
+        "source_document_ref": "archive/documents/court_document_excerpt_002.txt",
+        "timestamp_processed": "2026-02-25 17:48:28"
+    },
+    {
+        "record_id": "DBR-0040",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "news_article_summary_002.txt",
+            "document_path": "archive/documents/news_article_summary_002.txt",
+            "content_summary": "Summary of news article: Prince Andrew's association with Epstein and visits to NY townhouse."
+        },
+        "source_document_ref": "archive/documents/news_article_summary_002.txt",
+        "timestamp_processed": "2026-02-25 17:48:28"
+    },
+    {
+        "record_id": "DBR-0041",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "flight_manifest_data_001.txt",
+            "document_path": "archive/documents/flight_manifest_data_001.txt",
+            "content_summary": "Flight records for N908JE, pilot David, destination Paris, owned by JE Corp."
+        },
+        "source_document_ref": "archive/documents/flight_manifest_data_001.txt",
+        "timestamp_processed": "2026-02-25 17:48:28"
+    }
+]
