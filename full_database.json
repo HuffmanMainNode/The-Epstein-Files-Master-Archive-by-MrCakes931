@@ -4,5 +4,72 @@
         "name": "Jeffrey Epstein Record",
         "type": "PersonDetails",
         "source": "Initial Data"
+    },
+    {
+        "record_id": "DBR-0002",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "DavidCopperfield",
+            "label": "David Copperfield",
+            "type": "Person",
+            "attributes": {
+                "occupation": "Magician",
+                "source_text": "News article about Epstein associates"
+            }
+        },
+        "source_document_ref": "News article about Epstein associates",
+        "timestamp_processed": "2026-02-25 16:51:04"
+    },
+    {
+        "record_id": "DBR-0003",
+        "record_type": "extracted_node",
+        "extracted_data": {
+            "id": "PrivateJet",
+            "label": "Private Jet",
+            "type": "Aircraft",
+            "attributes": {
+                "registration": "N-SIMULATED",
+                "source_text": "Flight manifest data"
+            }
+        },
+        "source_document_ref": "Flight manifest data",
+        "timestamp_processed": "2026-02-25 16:51:04"
+    },
+    {
+        "record_id": "DBR-0004",
+        "record_type": "extracted_edge",
+        "extracted_data": {
+            "source": "JeffreyEpstein",
+            "target": "DavidCopperfield",
+            "type": "associated_with",
+            "attributes": {
+                "relationship_type": "acquaintance",
+                "source_text": "archive/documents/court_document_excerpt_001.txt"
+            }
+        },
+        "source_document_ref": "archive/documents/court_document_excerpt_001.txt",
+        "timestamp_processed": "2026-02-25 16:51:04"
+    },
+    {
+        "record_id": "DBR-0005",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "court_document_excerpt_001.txt",
+            "document_path": "archive/documents/court_document_excerpt_001.txt",
+            "content_summary": "Excerpt from US v. Maxwell: Witness testimony on date X."
+        },
+        "source_document_ref": "archive/documents/court_document_excerpt_001.txt",
+        "timestamp_processed": "2026-02-25 16:52:11"
+    },
+    {
+        "record_id": "DBR-0006",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "news_article_summary_001.txt",
+            "document_path": "archive/documents/news_article_summary_001.txt",
+            "content_summary": "Summary of a news article: Epstein flew frequently to Little St. James."
+        },
+        "source_document_ref": "archive/documents/news_article_summary_001.txt",
+        "timestamp_processed": "2026-02-25 16:52:11"
     }
 ]
