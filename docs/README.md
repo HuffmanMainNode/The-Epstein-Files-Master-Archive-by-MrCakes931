@@ -81,3 +81,7 @@ This project embraces universality and transparency through its multi-language c
 10. **Propose Changes**: For significant changes or new features, please open an issue or submit a pull request for review.
 
 This 'library card' aims to guide all contributors and stakeholders in leveraging this archive effectively for the ongoing investigation into the Jeffrey Epstein enterprise.
+
+## Visualizations
+
+*   **Interactive Topology Map**: Access the latest interactive visualization of the master topology map [here](https://HuffmanMainNode.github.io/The-Epstein-Files-Master-Archive-by-MrCakes931/visualizations/master_topology_interactive.html)
