@@ -38,7 +38,7 @@ This repository is structured to facilitate systematic data collection, processi
 *   `docs/README.md`: This document, serving as the project's 'library card'.
 *   `processed_data/master_topology.json`: The core network graph, storing nodes (entities) and edges (relationships) of the Epstein network.
 *   `processed_data/full_database.json`: A comprehensive database of all extracted and standardized records, including nodes, edges, and document references, acting as the structured backend for the topology map.
-*   `docs/VERSION.txt`: Tracks the project's current version number (e.g., `1.a.3`).
+*   `docs/VERSION.txt`: Tracks the project's current version number (e.g., `1.a.4`).
 *   `src/python/data_extraction.py`: The Python script responsible for programmatically extracting entities and relationships from textual data.
 
 ## File Naming Conventions
@@ -77,7 +77,7 @@ This project embraces universality and transparency through its multi-language c
 8.  **Multi-lingual Documentation**: 
     *   Translated versions of key documentation are stored in `localization/docs/`.
     *   To add or update a translation, create or modify the appropriate file (e.g., `README.es.md` for Spanish) within this directory.
-9.  **Commit and Push**: Regularly commit your changes with descriptive messages (e.g., `feat: [v1.a.3] Organized repository, integrated new data, and archived sources`) and push them to the `main` branch. Use `git add .`, `git commit -m "Your message"`, and `git push origin main`.
+9.  **Commit and Push**: Regularly commit your changes with descriptive messages (e.g., `feat: [v1.a.4] Organized repository, integrated new data, and archived sources`) and push them to the `main` branch. Use `git add .`, `git commit -m "Your message"`, and `git push origin main`.
 10. **Propose Changes**: For significant changes or new features, please open an issue or submit a pull request for review.
 
 This 'library card' aims to guide all contributors and stakeholders in leveraging this archive effectively for the ongoing investigation into the Jeffrey Epstein enterprise.

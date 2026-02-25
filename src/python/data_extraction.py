@@ -216,7 +216,8 @@ if __name__ == '__main__':
     existing_node_ids = set()
 
     for i, sample_text in enumerate(test_texts):
-        print("\nProcessing text {}: {}".format(i+1, sample_text))
+        print("
+Processing text {}: {}".format(i+1, sample_text))
         extracted_data = extract_info_from_text(sample_text, source_ref="Sample_Text_{}".format(i+1))
 
         # Add unique nodes
@@ -228,8 +229,10 @@ if __name__ == '__main__':
         # Add all edges (deduplication for edges would be more complex, e.g. (source, target, type) combo)
         all_extracted_edges.extend(extracted_data['edges'])
 
-    print("\n--- Final Extracted Data ---")
+    print("
+--- Final Extracted Data ---")
     print("Nodes:")
     print(json.dumps(all_extracted_nodes, indent=4))
-    print("\nEdges:")
+    print("
+Edges:")
     print(json.dumps(all_extracted_edges, indent=4))

@@ -536,5 +536,38 @@
         },
         "source_document_ref": "archive/documents/investigative_report_001.txt",
         "timestamp_processed": "2026-02-25 17:17:10"
+    },
+    {
+        "record_id": "DBR-0039",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "court_document_excerpt_002.txt",
+            "document_path": "archive/documents/court_document_excerpt_002.txt",
+            "content_summary": "Further excerpt from Maxwell trial: Details of travel to Little St. James."
+        },
+        "source_document_ref": "archive/documents/court_document_excerpt_002.txt",
+        "timestamp_processed": "2026-02-25 17:48:28"
+    },
+    {
+        "record_id": "DBR-0040",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "news_article_summary_002.txt",
+            "document_path": "archive/documents/news_article_summary_002.txt",
+            "content_summary": "Summary of news article: Prince Andrew's association with Epstein and visits to NY townhouse."
+        },
+        "source_document_ref": "archive/documents/news_article_summary_002.txt",
+        "timestamp_processed": "2026-02-25 17:48:28"
+    },
+    {
+        "record_id": "DBR-0041",
+        "record_type": "archived_document_ref",
+        "extracted_data": {
+            "document_name": "flight_manifest_data_001.txt",
+            "document_path": "archive/documents/flight_manifest_data_001.txt",
+            "content_summary": "Flight records for N908JE, pilot David, destination Paris, owned by JE Corp."
+        },
+        "source_document_ref": "archive/documents/flight_manifest_data_001.txt",
+        "timestamp_processed": "2026-02-25 17:48:28"
     }
 ]
