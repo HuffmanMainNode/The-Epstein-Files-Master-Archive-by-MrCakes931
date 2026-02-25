@@ -22,21 +22,24 @@ This repository is structured to facilitate systematic data collection, processi
 *   `data/` (Proposed future directory for structured datasets):
     *   `data/raw_data/`: Stores raw, unprocessed data collected from various sources.
     *   `data/processed_data/`: Stores cleaned, transformed, and ready-for-analysis datasets.
-*   `src/` (Proposed future directory for modular code):
-    *   `src/data_extraction.py`: Contains the core logic for extracting entities and relationships from text (Named Entity Recognition - NER) and inferring connections (Relation Extraction - RE). This script uses `spaCy` for advanced NLP capabilities.
-    *   `src/utils.py`: (Proposed) Utility functions for data manipulation, cleaning, etc.
+*   `src/`: **(NEW)** This directory houses all source code, organized by programming language to support multi-lingual development and research.
+    *   `src/python/`: Contains Python scripts for data extraction, processing, analysis, and utility functions (e.g., `data_extraction.py`).
+    *   `src/javascript/`: **(NEW)** Contains JavaScript code, for example, for front-end development, interactive visualizations, or specific data handling tasks (e.g., `hello_world.js`).
+    *   `src/go/`: **(NEW)** Contains Go language code, which might be used for high-performance data processing, API development, or other backend services (e.g., `hello_world.go`).
+*   `localization/`: **(NEW)** This directory is dedicated to multi-lingual content, ensuring the project's critical information is transparent and accessible across all top human languages. It primarily stores translated versions of documentation and potentially metadata.
+    *   `localization/docs/`: Stores translated versions of READMEs, contribution guidelines, and other project documentation (e.g., `README.fr.md`).
 *   `models/`: (Proposed) Stores any machine learning models developed for advanced analysis or prediction.
 *   `notebooks/`: (Proposed) Contains Jupyter notebooks for exploratory data analysis, visualization, and ad-hoc scripting.
 *   `visualizations/`: (Proposed) Stores generated visualizations of the topology map and other data insights.
-*   `docs/`: (Proposed) Additional documentation, research notes, and methodologies.
+*   `docs/`: Additional documentation, research notes, and methodologies, including the main `README.md` and `VERSION.txt`.
 
 ## Key Files
 
-*   `README.md`: This document, serving as the project's 'library card'.
-*   `master_topology.json`: The core network graph, storing nodes (entities) and edges (relationships) of the Epstein network.
-*   `full_database.json`: A comprehensive database of all extracted and standardized records, including nodes, edges, and document references, acting as the structured backend for the topology map.
-*   `VERSION.txt`: Tracks the project's current version number (e.g., `1.a.2`).
-*   `data_extraction.py`: The Python script responsible for programmatically extracting entities and relationships from textual data.
+*   `docs/README.md`: This document, serving as the project's 'library card'.
+*   `processed_data/master_topology.json`: The core network graph, storing nodes (entities) and edges (relationships) of the Epstein network.
+*   `processed_data/full_database.json`: A comprehensive database of all extracted and standardized records, including nodes, edges, and document references, acting as the structured backend for the topology map.
+*   `docs/VERSION.txt`: Tracks the project's current version number (e.g., `1.a.3`).
+*   `src/python/data_extraction.py`: The Python script responsible for programmatically extracting entities and relationships from textual data.
 
 ## File Naming Conventions
 
@@ -49,7 +52,7 @@ To maintain consistency and ease of navigation, the following conventions are ad
 
 ## Versioning System
 
-The project uses a `X.y.Z` versioning scheme, recorded in `VERSION.txt`:
+The project uses a `X.y.Z` versioning scheme, recorded in `docs/VERSION.txt`:
 
 *   **X (Major Release)**: Denotes significant architectural changes or milestones.
 *   **y (Feature Release)**: Indicates new features, substantial data integrations, or major methodological updates.
@@ -59,13 +62,22 @@ The versioning is automated: upon major updates or integrations, the script read
 
 ## How to Navigate and Contribute
 
+This project embraces universality and transparency through its multi-language code structure and multi-lingual content strategy. Here's how to navigate and contribute:
+
 1.  **Clone the Repository**: Start by cloning this repository to your local machine.
 2.  **Understand the Structure**: Familiarize yourself with the `Repository Organization` section above to locate relevant files.
-3.  **Explore the Topology**: Examine `master_topology.json` to understand the current state of the network graph. `full_database.json` provides the granular detail and source traceability for each node and edge.
-4.  **Data Extraction**: Contributions to data extraction typically involve enhancing `data_extraction.py` or running it on new source materials.
-5.  **Adding New Data**: After extracting new data, integrate it into `full_database.json` and subsequently update `master_topology.json`. Ensure `VERSION.txt` is appropriately incremented.
-6.  **Archiving Sources**: Always archive new source materials in `archive/documents/` and link them in `full_database.json`.
-7.  **Commit and Push**: Regularly commit your changes with descriptive messages (e.g., `feat: [v1.a.2] Integrated new data sources`) and push them to the `main` branch. Use `git add .`, `git commit -m "Your message"`, and `git push origin main`.
-8.  **Propose Changes**: For significant changes or new features, please open an issue or submit a pull request for review.
+3.  **Explore the Topology**: Examine `processed_data/master_topology.json` to understand the current state of the network graph. `processed_data/full_database.json` provides the granular detail and source traceability for each node and edge.
+4.  **Code Contributions**: 
+    *   **Python**: Find core data processing and extraction logic in `src/python/`.
+    *   **JavaScript, Go, and Others**: Explore `src/javascript/` and `src/go/` (or other language-specific subdirectories as they are added) for relevant codebases.
+    *   When adding new code in a different language, create a new subdirectory within `src/` for that language if it doesn't already exist.
+5.  **Data Extraction**: Contributions to data extraction typically involve enhancing `src/python/data_extraction.py` or running it on new source materials.
+6.  **Adding New Data**: After extracting new data, integrate it into `processed_data/full_database.json` and subsequently update `processed_data/master_topology.json`. Ensure `docs/VERSION.txt` is appropriately incremented.
+7.  **Archiving Sources**: Always archive new source materials in `archive/documents/` and link them in `processed_data/full_database.json` for full traceability.
+8.  **Multi-lingual Documentation**: 
+    *   Translated versions of key documentation are stored in `localization/docs/`.
+    *   To add or update a translation, create or modify the appropriate file (e.g., `README.es.md` for Spanish) within this directory.
+9.  **Commit and Push**: Regularly commit your changes with descriptive messages (e.g., `feat: [v1.a.3] Organized repository, integrated new data, and archived sources`) and push them to the `main` branch. Use `git add .`, `git commit -m "Your message"`, and `git push origin main`.
+10. **Propose Changes**: For significant changes or new features, please open an issue or submit a pull request for review.
 
 This 'library card' aims to guide all contributors and stakeholders in leveraging this archive effectively for the ongoing investigation into the Jeffrey Epstein enterprise.
